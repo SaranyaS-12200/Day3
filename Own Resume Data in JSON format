@@ -1,0 +1,46 @@
+var Resume=[{
+    "Name":"SaranyaS",
+    "Email":"sharanya@gmail.com",
+    "Phone":"9900110000",
+    "Quotes":"Interest Gains Knowledge",
+    
+},{
+    "Profile":"To Work in a Professional environment, where I can Contribute myself and enrich my skills according to the latest technologies and to work towards the achievement of the organisation."
+},{
+    "Education":[{
+        "Under_Graduation":"Perunthalaivar Kamarajar Institute of Engineering and Technology(2017-2021).",
+        "High_School":"Thiruvalluvar Govt Girls Hr.Sec.School.(2016-2017)",
+        "Secondary_School":"Immaculate Heart of Mary Girls Hr.Sec.School.(2003-2015)",
+        
+    }]
+},{
+    "Certifications":"Certified Professional in SQL and DBMS in Programming in the month of June, 2019."},{
+        "Presentations":[{
+            "PPt1":"Presentation done on “ROBOTICS” in COGNITO’20 in March 2020 at PKIET",
+        "PPt2":"Presentation done on “IP SPOOFING” in Engineer’s Day 2019 at PKIET."}]
+    },{
+        "Project":"Built Database Management System for Billing – Om Sakthi Electronics Service Center, Puducherry."},
+        {
+            "Technical_Skills":[{
+                "Programming_Skills":"C,C++,Python,Java,Sql,Mysql",
+                "Hardware_Skills":"Hardware maintenance & Troubleshooting."
+            }]
+        },{"Area_of_Interest":"SoftwareDevelopment,CyberSecurity,Networking"},{
+            "Personal_Profile":[{
+                "DOB"	:	"1st_Feb_2000",
+"Sex"	:	"Female",
+"FatherName"	:	"Sandirasegaran-K",
+"MotherName"	:	"Suba-S",
+"Religion" 	:	"Hindu",
+"Mother_Tongue"	:	"Tamil", 
+"Languages_Known"	:	"English, Tamil, Hindi & French (Read & Write)",
+"Hobbies"	:	"Listening to music, gardening, traveling, reading novels, Dancing etc.",
+            }] },{
+                "Declaration":"I hereby declare that the above given details are true to the best of my knowledge.by_Saranya."
+            }];
+console.log(Resume);
+console.log(Resume[2]);
+console.log(Resume[4]);
+console.log(Resume[6]);
+console.log(Resume[8]);
+console.log(Resume[8].Personal_Profile[0].Languages_Known);
